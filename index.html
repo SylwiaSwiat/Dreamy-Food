@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dreamy Food</title>
+    <link rel="stylesheet" href="styyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="script.js" defer></script>
+    <script src="https://kit.fontawesome.com/13f87f03f4.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+   
+    <div class="container" id="home">
+        
+        <header>
+           <div class="top" id="top">
+<div class="logo">
+    <img src="Dreama.jfif" alt="logo" class="biglogo" width="156">
+    <img src="minilogo.jfif" alt="mobile logo" class="minilogo" width="88">
+</div>
+<div class="top-contact">
+  <div class="top-phone"><i class="fa fa-phone-alt"></i>
+    <a href="tel:+48 123 456 789">+48 123 456 789</a></div>
+    <div class="top-mail"> <i class="fas fa-envelope"></i>
+      <a href="mailto:sylwiaswiat2@wp.pl">example@wp.pl</a></div>
+       
+</div>
+
+
+<button class="burger">
+    <i class="fas fa-bars"></i>
+    <i class="fas fa-times hide"></i>
+</button>
+<nav class="nav">
+  <i class="fas fa-times small"></i>
+    <ul>
+        <li class="nav-item">
+            <a href="#home" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+        </li>
+        <li class="nav-item">
+            <a href="#menu" class="nav-link">Menu</a>
+        </li>
+        <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+        </li>
+        <li class="nav-item">
+            <a href="#reservation" class="nav-link">Reservation</a>
+        </li>
+        
+    </ul>
+    </nav>
+</div> 
+<div class="video-box">
+<div class="catch">
+  <p> Food with attitude</p>
+<p>Eat. Drink. Love.</p></div>
+
+<video id="videoBG" poster="poster.png"  autoplay muted loop>
+    <source src="cocktail_Trim.mp4">
+    
+</video>   
+</div>
+        </header>
+        <div id="about">
+            <div class="about-container">
+                <h2>Welcome to Dreamy Food</h2>
+                <div class="about-box">
+                   <div data-aos="fade-right" data-aos-offset="200" data-aos-duration="1000"><img src="pastaabout2.jpg" alt=""  height="400"></div>
+                    <div class="text" data-aos="fade-left" data-aos-offset="200" data-aos-duration="1000">
+                        <h3>We are people passionate about food</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid, consequatur possimus. Ipsum architecto eligendi aliquid ipsam sint similique nulla repudiandae officiis! Debitis, voluptates odio. Nulla amet voluptates cum aut, dignissimos placeat commodi assumenda alias quidem in fugiat dolorum id iste delectus soluta nihil, cumque illo atque similique vero iure harum!</p>
+                    </div>
+                </div>
+                <div class="offer-box">
+<h2>We offer</h2>
+<div class="three-column-grid">
+    <div class="grid-item" data-aos="fade-right" data-aos-offset="200" data-aos-duration="1000">
+        <img src="org.jpg" alt="img1" width="200" height="200">
+        <h3 class="subtitle"><strong>Organic products</strong></h3>
+        <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, sunt.</p>
+    </div>
+    <div class="grid-item" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000">
+        <img src="atm.jpg" alt="img1" width="200" height="200">
+        <h3 class="subtitle"><strong>Great atmosphere</strong></h3>
+        <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, sunt.</p>
+    </div>
+    <div class="grid-item" data-aos="fade-left" data-aos-offset="200" data-aos-duration="1000">
+        <img src="service.jpg" alt="img1" width="200" height="200">
+        <h3 class="subtitle"><strong>Professional service</strong></h3>
+        <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, sunt.</p>
+    </div>
+</div>
+</div>
+            </div>
+        </div>
+        <div id="menu">
+            <div class="menu-box">
+    <div>
+        <h2>Menu</h2>
+    </div>
+    <div class = "menu-btns">
+        <button type = "button" class = "menu-btn active-btn" id = "Pasta">Pasta</button>
+        <button type = "button" class = "menu-btn" id = "Pizza">Pizza</button>
+        <button type = "button" class = "menu-btn" id = "Desserts">Desserts</button>
+        <button type = "button" class = "menu-btn" id = "Cocktails">Cocktails</button>
+      </div>
+
+      <div class = "food-items">
+        <div class = "food-item Pasta">
+          <div class = "food-img">
+            <img src = "pasta1.jpg" alt = "food image" width="220" height="165">
+          </div>
+          <div class = "food-content">
+            <h3 class = "food-name">Pasta aglio e olio</h3>
+            
+            <h4 class = "food-price">$15.00</h4>
+            <p class = "category">Ingredients: <span>Pasta, olive oil, garlic, chopped parsley</span></p>
+          </div>
+        </div>
+        <div class = "food-item Pasta">
+            <div class = "food-img">
+              <img src = "pasta2.jpg" alt = "food image" width="220" height="165">
+            </div>
+            <div class = "food-content">
+              <h3 class = "food-name">Arrabiata</h3>
+              
+              <h4 class = "food-price">$22.00</h4>
+              <p class = "category">Ingredients: <span>Pasta, olive oil, garlic, tomatoes, chilli flakes, olives, basil</span></p>
+            </div>
+          </div>
+          <div class = "food-item Pasta">
+            <div class = "food-img">
+              <img src = "pasta3.jpg" alt = "food image" width="220" height="165">
+            </div>
+            <div class = "food-content">
+              <h3 class = "food-name">Spaghetti con le acciughe</h3>
+              
+              <h4 class = "food-price">$25.00</h4>
+              <p class = "category">Ingredients:  <span>Pasta, olive oil, garlic, anchovies, chilli flakes, chopped parsley</span></p>
+            </div>
+          </div>
+          <div class = "food-item Pasta">
+            <div class = "food-img">
+              <img src = "pasta4.jpg" alt = "food image" width="220" height="165">
+            </div>
+            <div class = "food-content">
+              <h3 class = "food-name">Spaghetti all'a amatriciana</h3>
+              
+              <h4 class = "food-price">$25.00</h4>
+              <p class = "category">Ingredients:  <span>Pasta, olive oil, garlic, brown onion, tomatoes, chilli flakes, thinly sliced guanciale</span></p>
+            </div>
+          </div>
+          <div class = "food-item Pasta">
+            <div class = "food-img">
+              <img src = "pasta5.jpg" alt = "food image" width="220" height="165">
+            </div>
+            <div class = "food-content">
+              <h3 class = "food-name">Spaghetti all'a bolognese</h3>
+              
+              <h4 class = "food-price">$25.00</h4>
+              <p class = "category">Ingredients:  <span>Pasta, olive oil, garlic, beef, brown onion, carrot, tomato sauce</span></p>
+            </div>
+          </div>
+          <div class = "food-item Pasta">
+            <div class = "food-img">
+              <img src = "pasta6.jpg" alt = "food image" width="220" height="165">
+            </div>
+            <div class = "food-content">
+              <h3 class = "food-name">Spaghetti al tonno</h3>
+              
+              <h4 class = "food-price">$25.00</h4>
+              <p class = "category">Ingredients:  <span>Pasta, olive oil, garlic, brown onion, tomatoes, tuna, chopped parsley</span></p>
+            </div>
+          </div>
+          <div class = "food-item Pizza">
+            <div class = "food-img">
+              <img src = "pizza1.jpeg" alt = "food image" width="220" height="165">
+            </div>
+            <div class = "food-content">
+              <h3 class = "food-name">Margheritta</h3>
+              
+              <h4 class = "food-price">$15.00</h4>
+              <p class = "category">Ingredients: <span>Cheese, tomato sauce</span></p>
+            </div>
+          </div>
+          <div class = "food-item Pizza">
+            <div class = "food-img">
+              <img src = "pizza2.jpg" alt = "food image" width="220" height="165">
+            </div>
+            <div class = "food-content">
+              <h3 class = "food-name">Pizza 1</h3>
+              
+              <h4 class = "food-price">$18.00</h4>
+              <p class = "category">Ingredients: <span>Cheese, tomato sauce, salami</span></p>
+            </div>
+          </div>
+          <div class = "food-item Pizza">
+            <div class = "food-img">
+              <img src = "pizza3.jpg" alt = "food image" width="220" height="165">
+            </div>
+            <div class = "food-content">
+              <h3 class = "food-name">Vegetariana</h3>
+              
+              <h4 class = "food-price">$22.00</h4>
+              <p class = "category">Ingredients: <span>Cheese, tomato sauce, brown onion, mushrooms, green pepper, red pepper, corn</span></p>
+            </div>
+          </div>
+          <div class = "food-item Pizza">
+            <div class = "food-img">
+              <img src = "pizza4.jpg" alt = "food image" width="220" height="165">
+            </div>
+            <div class = "food-content">
+              <h3 class = "food-name">Neapolitana</h3>
+              
+              <h4 class = "food-price">$20.00</h4>
+              <p class = "category">Ingredients: <span>Cheese, tomato sauce, basil, tomatoes, mozarella</span></p>
+            </div>
+          </div>
+          <div class = "food-item Pizza">
+            <div class = "food-img">
+              <img src = "pizza5.jpg" alt = "food image" width="220" height="165">
+            </div>
+            <div class = "food-content">
+              <h3 class = "food-name">Pizza Kebab</h3>
+              
+              <h4 class = "food-price">$25.00</h4>
+              <p class = "category">Ingredients: <span>Cheese, tomato sauce, shoarma, tomatoes, chives</span></p>
+            </div>
+          </div>
+          <div class = "food-item Pizza">
+            <div class = "food-img">
+              <img src = "pizza6.jpg" alt = "food image" width="220" height="165">
+            </div>
+            <div class = "food-content">
+              <h3 class = "food-name">Highlander</h3>
+              
+              <h4 class = "food-price">$25.00</h4>
+              <p class = "category">Ingredients: <span>Cheese, tomato sauce, cranberries, smoked cheese, rucola</span></p>
+            </div>
+          </div>
+          <div class = "food-item Desserts">
+            <div class = "food-img">
+              <img src = "dessert1.jpg" alt = "food image" width="220" height="165">
+            </div>
+            <div class = "food-content">
+              <h3 class = "food-name">Sweet Love</h3>
+              
+              <h4 class = "food-price">$16.00</h4>
+              <p class = "category">Ingredients: <span>Chocolate mousse, whipped cream, strawberries,sponge cake</span></p>
+            </div>
+          </div>
+          <div class = "food-item Desserts">
+            <div class = "food-img">
+              <img src = "dessert2.jpg" alt = "food image" width="220" height="165">
+            </div>
+            <div class = "food-content">
+              <h3 class = "food-name">Caramel Happiness</h3>
+              
+              <h4 class = "food-price">$12.00</h4>
+              <p class = "category">Ingredients: <span>Cheesecake, caramel sauce</span></p>
+            </div>
+          </div>
+          <div class = "food-item Desserts">
+            <div class = "food-img">
+              <img src = "dessert3.jfif" alt = "food image" width="220" height="165">
+            </div>
+            <div class = "food-content">
+              <h3 class = "food-name">Endless Chocolate</h3>
+              
+              <h4 class = "food-price">$15.00</h4>
+              <p class = "category">Ingredients: <span>Brownie, vanilla ice cream </span></p>
+            </div>
+          </div>
+          <div class = "food-item Desserts">
+            <div class = "food-img">
+              <img src = "dessert4.jpg" alt = "food image" width="220" height="165">
+            </div>
+            <div class = "food-content">
+              <h3 class = "food-name">Moody Cake</h3>
+              
+              <h4 class = "food-price">$15.00</h4>
+              <p class = "category">Ingredients: <span>Tiramisu</span></p>
+            </div>
+          </div>
+          <div class = "food-item Desserts">
+            <div class = "food-img">
+              <img src = "dessert5.jpg" alt = "food image" width="220" height="165">
+            </div>
+            <div class = "food-content">
+              <h3 class = "food-name">Heavenly Rasperry</h3>
+              
+              <h4 class = "food-price">$16.00</h4>
+              <p class = "category">Ingredients: <span>Panna Cotta, Rasperry mousse</span></p>
+            </div>
+          </div>
+          <div class = "food-item Desserts">
+            <div class = "food-img">
+              <img src = "dessert6.jpg" alt = "food image" width="220" height="165">
+            </div>
+            <div class = "food-content">
+              <h3 class = "food-name">Miss Pavlova</h3>
+              
+              <h4 class = "food-price">$16.00</h4>
+              <p class = "category">Ingredients: <span>Meringue, cream, fruits</span></p>
+            </div>
+          </div>
+          <div class = "food-item Cocktails">
+            <div class = "food-img">
+              <img src = "cocktail1.jfif" alt = "food image" width="220" height="165">
+            </div>
+            <div class = "food-content">
+              <h3 class = "food-name">Bramble</h3>
+              
+              <h4 class = "food-price">$18.00</h4>
+              <p class = "category">Ingredients: <span>Gin, lemon juice, sugar syrup, creme de mure, sparkling water, crushed ice</span></p>
+            </div>
+          </div>
+          <div class = "food-item Cocktails">
+            <div class = "food-img">
+              <img src = "cocktail2.jpg" alt = "food image" width="220" height="165">
+            </div>
+            <div class = "food-content">
+              <h3 class = "food-name">Mojito</h3>
+              
+              <h4 class = "food-price">$16.00</h4>
+              <p class = "category">Ingredients: <span>White rum, lime juice, sugar syrup, mint leaves, sparkling water, crushed ice</span></p>
+            </div>
+          </div>
+          <div class = "food-item Cocktails">
+            <div class = "food-img">
+              <img src = "cocktail3.jpg" alt = "food image" width="220" height="165">
+            </div>
+            <div class = "food-content">
+              <h3 class = "food-name">Clover</h3>
+              
+              <h4 class = "food-price">$16.00</h4>
+              <p class = "category">Ingredients: <span>Gin, lemon juice, raspberry syrup, raspberry puree, egg white, crushed ice</span></p>
+            </div>
+          </div>
+          <div class = "food-item Cocktails">
+            <div class = "food-img">
+              <img src = "cocktail4.jpg" alt = "food image" width="220" height="165">
+            </div>
+            <div class = "food-content">
+              <h3 class = "food-name">Pina colada</h3>
+              
+              <h4 class = "food-price">$18.00</h4>
+              <p class = "category">Ingredients: <span>White rum, pineapple juice, coconut milk and cream, crushed ice</span></p>
+            </div>
+          </div>
+          <div class = "food-item Cocktails">
+            <div class = "food-img">
+              <img src = "cocktail5.jpg" alt = "food image" width="220" height="165">
+            </div>
+            <div class = "food-content">
+              <h3 class = "food-name">Paloma</h3>
+              
+              <h4 class = "food-price">$16.00</h4>
+              <p class = "category">Ingredients: <span>Tequila, grapefruit juice, lime juice, sparkling water, sugar syrup, crushed ice</span></p>
+            </div>
+          </div>
+          <div class = "food-item Cocktails">
+            <div class = "food-img">
+              <img src = "cocktail6.jpg" alt = "food image" width="220" height="165">
+            </div>
+            <div class = "food-content">
+              <h3 class = "food-name">Mudslide</h3>
+              
+              <h4 class = "food-price">$18.00</h4>
+              <p class = "category">Ingredients: <span>Vodka, coffee liqueur, Irish cream, vanilla ice cream, crushed ice</span></p>
+            </div>
+          </div>
+      </div>
+            </div>
+        </div>
+        <div id="contact">
+          <h2>Contact</h2>
+          <div class="contact-container">
+          <div class="contact-box">
+            <div class="contact-location">
+          <h5>Visit Us</h5>  
+           <p>Str. di Maratta Alta, 79, 05100 Maratta Alta TR, Italy</p>
+           <h5>Call Us</h5>
+           <p><a href="tel:+48 123 456 789">+48 123 456 789</a></p>
+           <h5>Write Us</h5>
+           <p><a href="mailto:sylwiaswiat2@wp.pl">example@wp.pl</a></p>
+            </div>
+            <div class="contact-hours">
+              <h5>Opening hours</h5>
+<p>Sunday - Thursday: 12-20</p>
+<p>Friday - Saturday: 10-22</p>
+<p id="kind-info">We kindly inform You about the necessity to reserve seats</p>
+            </div>
+          </div>
+          <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1469.1244038747168!2d12.61170985821036!3d42.57124119479337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132ee4b7aa50bb77%3A0x8dd4fd8674e02dc3!2sStr.%20di%20Maratta%20Alta%2C%2079%2C%2005100%20Maratta%20Alta%20TR%2C%20W%C5%82ochy!5e0!3m2!1spl!2spl!4v1633366350227!5m2!1spl!2spl" width="574" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
+        </div>
+        <div id="reservation">
+          <h2>Book Your table now</h2>
+          <div class="reservation-box">
+            <img src="reserv.jpg" alt="">
+            <div class="reservation-text">
+              <h3>Reservation</h3>
+              <form action="" id="form">
+                <div class="form-box">
+                  <select name="days" id="days" onchange="getSelectValue();">
+                    <option value="Monday">Monday</option>
+                    <option value="Thuesday">Thuesday</option>
+                    <option value="Wednesday">Wednesday</option>
+                    <option value="Thursday">Thursday</option>
+                    <option value="Friday">Friday</option>
+                    <option value="Saturday">Saturday</option>
+                    <option value="Sunday">Sunday</option>
+                  </select>
+                  <select name="hours-week" id="hours-week" class="hours active-hours">
+                    <option value="12">12:00</option>
+                    <option value="13">13:00</option>
+                    <option value="14">14:00</option>
+                    <option value="15">15:00</option>
+                    <option value="16">16:00</option>
+                    <option value="17">17:00</option>
+                    <option value="18">18:00</option>
+                    <option value="19">19:00</option>
+                    <option value="20">20:00</option>
+                  </select>
+                  <select name="hours-end" id="hours-end" class="hours">
+                    <option value="10">10:00</option>
+                    <option value="11">11:00</option>
+                    <option value="12">12:00</option>
+                    <option value="13">13:00</option>
+                    <option value="14">14:00</option>
+                    <option value="15">15:00</option>
+                    <option value="16">16:00</option>
+                    <option value="17">17:00</option>
+                    <option value="18">18:00</option>
+                    <option value="19">19:00</option>
+                    <option value="20">20:00</option>
+                    <option value="21">21:00</option>
+                    <option value="22">22:00</option>
+                  </select>
+                </div>
+                <div class="form-box">
+                  <div class="last">
+                  <input type = "text" placeholder="Last Name" id="lastName">
+                  <p id="errormsg"></p>
+                </div>
+                <div class="last">
+                  <input type = "tel" placeholder="Phone Number" id="tel">
+                            <p id="error"></p>
+                          </div>
+                </div>
+                <div class="form-box">
+                  <div class="last">
+                  <input type = "number" placeholder="How Many Persons?" min = "1" max="12" id="persons">
+                  <p id="personError"></p>
+                </div>
+                  <input type = "submit" value = "Book Table" id="book">
+                </div>
+              </form>
+            </div>
+            
+          </div>
+        </div>
+        <footer>
+          <div class="footer-logo">
+            <img src="Dreama.jfif" alt="logo" width="140px">
+        </div>
+        <div class="footer-menu">
+          <ul>
+            <li class="footer-nav-item">
+                <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li class="footer-nav-item">
+                <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="footer-nav-item">
+                <a href="#menu" class="nav-link">Menu</a>
+            </li>
+            <li class="footer-nav-item">
+                <a href="#contact" class="nav-link">Contact</a>
+            </li>
+            <li class="footer-nav-item">
+                <a href="#reservation" class="nav-link">Reservation</a>
+            </li>
+            
+        </ul>
+        </div>
+        <div class="social">
+          <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+        <div class="row">
+          <p>&copy; 2021 Dreamy Food | Designed by <a href="https://github.com/SylwiaSwiat">Sylwia</a></p>
+        </div>
+        </footer>
+        
+</div>
+
+<div class="top-scroll">
+  <a href="#">&#11165</a>
+</div>
+
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    disable: ()=>{
+      const maxWidth = 768;
+      return window.innerWidth<maxWidth;
+    }
+  });
+</script>
+</body>
+</html>
