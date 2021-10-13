@@ -89,7 +89,7 @@ getSelectValue();
     const lastNameValue = lastName.value.trim()
     const phoneNumberValue = phoneNumber.value.trim()
     const personsValue = persons.value
-    const regName = /^[\w'\-,.][^0-9_!¡?÷?¿/\\+=@#$%ˆ&*(){}|~<>;:[\]]{2,}$/;
+    const regName = /^([a-z]{2,3} [A-ZŁŻ][a-ząęóżźćńłś]{2,})|([A-ZŁŻ][a-ząęóżźćńłś]{2,})(-[A-ZŁŻ][a-ząęóżźćńłś]{2,})?$/;
     const regPhone = /^[0-9\-\+]{9,15}$/;
 
     if(lastNameValue==='') {errormsg.innerHTML=`Last name can not be blank`}
